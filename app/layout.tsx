@@ -14,7 +14,6 @@ const poppins = Poppins({
   subsets: ['latin'], 
   display: 'swap'
 })
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -22,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={poppins.className}>
-      <body className="to-gray-900 from-gray-950 bg-gradient-to-t">
+      <body className="to-gray-900 from-gray-950 bg-gradient-to-t text-white">
         <Aside/>
         {children}
       </body>
