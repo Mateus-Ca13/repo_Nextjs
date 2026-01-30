@@ -1,4 +1,4 @@
-# Projeto Next.js 14
+# Projeto Next.js
 
 Projeto pessoal que segue sintaxe moderna do Next (Next.js +13)
 
